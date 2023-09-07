@@ -12,4 +12,4 @@ int main(void)
 
 	puts(mystr);
 	return (0);
-
+}
