@@ -13,10 +13,11 @@ int c;
 /* your code goes there */
 for (a = 48; a < 58  ; a++)
 {
-	for (b = 48; b < 58 ; b++){
+	for (b = 48; b < 58 ; b++)
+	{
 		for (c = 48; c < 58 ; c++)
 		{
-			if (a >= b || b>=c || a>=c)
+			if (a >= b || b >= c || a >= c)
 			{
 				continue;
 			}
