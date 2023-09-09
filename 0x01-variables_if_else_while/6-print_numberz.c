@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-char a;
+int a;
 /* your code goes there */
-for (a = '0' ; a < '9' + 1  ; a++)
+for (a = 0 ; a < 10  ; a++)
 {
-	putchar(a);
+	putchar((char)a);
 }
 putchar('\n');
 return (0);
