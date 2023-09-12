@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry point
  * Description: 'di'
@@ -8,6 +8,10 @@
 int main(void)
 {
 /* your code goes there */
-printf("_putchar\n");
-return (0);
+	char arr[8] = "_putchar";
+
+	for (int i = 0; i < 8; i++)
+	{
+		_putcar(arr[i]);
+	}
 }
