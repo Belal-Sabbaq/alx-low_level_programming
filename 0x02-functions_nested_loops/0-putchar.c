@@ -9,9 +9,12 @@ int main(void)
 {
 /* your code goes there */
 	char arr[8] = "_putchar";
+	int i;
 
-	for (int i = 0; i < 8; i++)
+	for (i = 0; i < 8; i++)
 	{
-		_putcar(arr[i]);
+		_putchar(arr[i]);
 	}
+	_putchar('\n');
+	return (0);
 }
