@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * timetable - time table from '1' to '9'
+ * times_table - time table from '1' to '9'
  */
 
 void times_table(void)
@@ -24,7 +24,7 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(f1 + 48);
 				_putchar(f2 + 48);
-				if (j != 0)
+				if (j != 9)
 					_putchar(',');
 			}
 			else
