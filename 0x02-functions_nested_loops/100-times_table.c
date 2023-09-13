@@ -24,7 +24,7 @@ void print_times_table(int n)
 				f3 = (i * j) % 10;
 				f2 = (((i * j) - f3) / 10) % 10;
 				f1 = (((i * j) - f2 * 10) - f3) / 100;
-				_putchar(' ')
+				_putchar(' ');
 				if (f1 == 0)
 					_putchar(' ');
 				else
