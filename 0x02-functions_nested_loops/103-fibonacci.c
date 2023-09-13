@@ -15,13 +15,12 @@ int main(void)
 	do 
 	{
 	head = n1 + n2;
-	if (sum + head > 5000000)
-		break;
-	sum = sum + head;
+	if (head % 2 ==0)
+		sum = sum + head;
 	n1 = n2;
 	n2 = head;
 	}
-	while(sum < 4000000);
+	while(head < 4000000);
 	printf("%ld\n", sum);
 	return (0);
 }
