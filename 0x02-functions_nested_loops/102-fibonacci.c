@@ -2,15 +2,23 @@
 
 /**
  * main - Entry point
- * Description: 'di'
+ * Description: fibo
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char a;
+	int n1, n2, head, c;
 /* your code goes there */
-for (a = 'a' ; a < 'z' + 1  ; a++)
-	putchar(a);
-putchar('\n');
-return (0);
+	n1 = 1;
+	n2 = 2;
+	c = 2;
+	printf("1, 2, ");
+	while(c < 50)
+	{
+	head = n1 + n2;
+	printf("%d, ", head);
+	n1 = n2;
+	n2 = head;
+	}
+	printf("%d\n", n1 + n2);
 }
