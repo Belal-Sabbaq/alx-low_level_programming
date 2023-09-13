@@ -12,13 +12,14 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	sum = 0;
-	while (sum < 4000000 )
+	do 
 	{
 	head = n1 + n2;
 	sum = sum + head;
 	n1 = n2;
 	n2 = head;
 	}
+	while(sum < 4000000)
 	printf("%ld\n", sum);
 	return (0);
 }
