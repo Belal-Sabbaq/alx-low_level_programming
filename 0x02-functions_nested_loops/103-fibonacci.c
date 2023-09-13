@@ -15,6 +15,8 @@ int main(void)
 	do 
 	{
 	head = n1 + n2;
+	if (sum + head > 5000000)
+		break;
 	sum = sum + head;
 	n1 = n2;
 	n2 = head;
