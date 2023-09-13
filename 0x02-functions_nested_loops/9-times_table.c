@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * timetable - time table from '1' to '9'
