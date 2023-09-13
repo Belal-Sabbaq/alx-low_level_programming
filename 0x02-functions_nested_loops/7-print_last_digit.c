@@ -11,10 +11,8 @@
 int print_last_digit(int n)
 {
 	int temp;
-	char temo;
 
 	temp = n % 10;
-	temo = (char)temp;
-	_putchar('temo');
+	_putchar((char)temp);
 	return (temp);
 }
