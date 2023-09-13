@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	int n1, n2, head, c;
+	long n1, n2, head, c;
 /* your code goes there */
 	n1 = 1;
 	n2 = 2;
 	c = 2;
 	printf("1, 2, ");
-	while(c < 50)
+	while(c < 49)
 	{
 	head = n1 + n2;
 	printf("%d, ", head);

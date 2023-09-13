@@ -13,13 +13,13 @@ int main(void)
 	n2 = 2;
 	c = 2;
 	printf("1, 2, ");
-	while(sum < )
+	while(sum < 4000000 )
 	{
 	head = n1 + n2;
-	printf("%d, ", head);
+	sum = sum + head;
 	n1 = n2;
 	n2 = head;
 	}
-	printf("%d\n", n1 + n2);
+	printf("%d\n", sum)
 	return (0);
 }
