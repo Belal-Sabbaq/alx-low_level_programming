@@ -11,7 +11,7 @@ int main(void)
 /* your code goes there */
 	n1 = 1;
 	n2 = 2;
-	sum = 0;
+	sum = 2;
 	do 
 	{
 	head = n1 + n2;
