@@ -7,12 +7,11 @@
  */
 int main(void)
 {
-	int n1, n2, head, sum;
+	long n1, n2, head, sum;
 /* your code goes there */
 	n1 = 1;
 	n2 = 2;
-	c = 2;
-	printf("1, 2, ");
+	sum = 0;
 	while(sum < 4000000 )
 	{
 	head = n1 + n2;

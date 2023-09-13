@@ -16,7 +16,7 @@ int main(void)
 	while(c < 49)
 	{
 	head = n1 + n2;
-	printf("%d, ", head);
+	printf("%d\, ", head);
 	n1 = n2;
 	n2 = head;
 	c++;
