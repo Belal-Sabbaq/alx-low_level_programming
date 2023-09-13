@@ -12,13 +12,13 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	sum = 2;
-	do{
+	do	{
 	head = n1 + n2;
 	if (head % 2 == 0)
 		sum = sum + head;
 	n1 = n2;
 	n2 = head;
-	}while (head < 4000000);
+	}	while (head < 4000000);
 	printf("%ld\n", sum);
 	return (0);
 }
