@@ -4,7 +4,7 @@
  * timetable - time table from '1' to '9'
  */
 
-void times_table(void);
+void times_table(void)
 {
 	int i, j, f1, f2;
 
