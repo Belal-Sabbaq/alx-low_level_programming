@@ -21,4 +21,5 @@ int main(void)
 	n2 = head;
 	}
 	printf("%d\n", n1 + n2);
+	return (0);
 }
