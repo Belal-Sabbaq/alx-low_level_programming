@@ -25,11 +25,11 @@ void print_times_table(int n)
 				f2 = (((i * j) - f3) / 10) % 10;
 				f1 = (((i * j) - f2 * 10) - f3) / 100;
 				_putchar(' ');
-				if (f1 == 0)
+				if (f1 == 0 && (i * j) < 100)
 					_putchar(' ');
 				else
 					_putchar(f1 + 48);
-				if (f2 == 0)
+				if (f2 == 0 && (i * j) < 10)
 					_putchar(' ');
 				else
 					_putchar(f2 + 48);
