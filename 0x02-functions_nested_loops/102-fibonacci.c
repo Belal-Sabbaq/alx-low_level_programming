@@ -13,7 +13,7 @@ int main(void)
 	n2 = 2;
 	c = 2;
 	printf("1, 2, ");
-	while(c < 49)
+	while (c < 49)
 	{
 	head = n1 + n2;
 	printf("%ld, ", head);
