@@ -7,16 +7,14 @@
  */
 int main(void)
 {
-int i;
+	int i, sum;
 /* your code goes there */
+	sum = 0;
 	for (i = 0; i < 1024; i++)
 	{
-		if(i % 3 == 0 || i % 5 == 0)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			if (i != 1023)
-				printf("%d, ", i);
-			else
-				printf("%d\n", i);
+			sum = sum + i;
 		
 		}
 	}
