@@ -1,0 +1,19 @@
+i#include "main.h"
+/**
+ * _isupper - check the input if is a digit or not
+ * @c: input char
+ * Return: 1 if success
+ * 0 otherwise
+ */
+
+int _isupper(int c)
+{
+	if (c > 47 && c < 58)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+}
