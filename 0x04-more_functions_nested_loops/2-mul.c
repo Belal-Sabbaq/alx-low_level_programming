@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul - multipky two integers
+ * mul - multiply two integers
  * @a: first input
  * @b: second input
  * Return: return a * b
@@ -8,5 +8,8 @@
 
 int mul(int a, int b);
 {
-	return (a * b);
+	int res;
+
+	res = a * b;
+	return (res);
 }
