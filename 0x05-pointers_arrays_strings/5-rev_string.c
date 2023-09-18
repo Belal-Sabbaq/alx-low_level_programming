@@ -13,7 +13,7 @@ void rev_string(char *s)
 /**after declration */
 	c = 0;
 	i = 0;
-	k + 0;
+	k = 0;
 	while (*(s + i) != '\0')
 	{
 		c++;
