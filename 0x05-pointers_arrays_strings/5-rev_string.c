@@ -9,7 +9,7 @@
 void rev_string(char *s)
 {
 	int i, c, j, k;
-	char *strev;
+	char temp;
 /**after declration */
 	c = 0;
 	i = 0;
@@ -21,10 +21,11 @@ void rev_string(char *s)
 	}
 	for (j = c - 1; j >= 0; j--)
 	{
-		*(strev + k) = *(s + j);
+		if (k ==j || j < k)
+			break;
+		temp = *(s + j);
+		*(s + j) = *(s + k);
+		*(s + k) = temp;
 		k++;
 	}
-	*(strev + (k + 1)) = '\0';
-	s = strev;
-	_putchar('\n');
 }
