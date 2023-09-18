@@ -21,7 +21,7 @@ void rev_string(char *s)
 	}
 	for (j = c - 1; j >= 0; j--)
 	{
-		if (k ==j || j < k)
+		if (k == j || j < k)
 			break;
 		temp = *(s + j);
 		*(s + j) = *(s + k);
