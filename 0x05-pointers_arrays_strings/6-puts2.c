@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts2 - output half strings
+ * puts2 - output half strings
  * @str: pointer to the first element
  */
 
